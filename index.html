@@ -5,8 +5,15 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    You have 0 atoms<br>
-    <button class="tab">Atoms</button>
-    <button class="tab">Settings</button>
+    You have <span id="money">10</span> atoms<br>
+    <button class="tab" onclick="showTab(1)">Atoms</button>
+    <button class="tab" onclick="showTab(2)">Settings</button>
+    <div id="tab1">
+      a
+    </div>
+    <div id="tab2">
+      b
+    </div>
   </body>
+  <script src="js/script.js"></script>
 </html>
